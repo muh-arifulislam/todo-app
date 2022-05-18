@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import AddTaskModal from './AddTaskModal';
 import Task from './Task';
 import TaskDetailModal from './TaskDetailModal';
 const TaskContainer = () => {
@@ -21,6 +22,7 @@ const TaskContainer = () => {
                 }
             </section>
             <TaskDetailModal task={task}></TaskDetailModal>
+            <AddTaskModal></AddTaskModal>
         </>
     );
 };

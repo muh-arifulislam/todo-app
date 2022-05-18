@@ -11,9 +11,9 @@ const Task = ({ task, handleDeleteTask, setTask }) => {
                 </div>
                 <div className="card-actions justify-center">
                     <button onClick={() => handleDeleteTask(id)} className="btn btn-primary">
-                        <TrashIcon class="h-8 w-8 bg-none" />
+                        <TrashIcon className="h-8 w-8 bg-none" />
                     </button>
-                    <label onClick={() => setTask(task)} for="show-task-detail" class="btn modal-button">view</label>
+                    <label onClick={() => setTask(task)} htmlFor="show-task-detail" className="btn btn-secondary text-white modal-button">view</label>
                 </div>
             </div>
         </div>

@@ -3,13 +3,13 @@ const TaskDetailModal = ({ task }) => {
     const { name, description, id } = task;
     return (
         <>
-            <input type="checkbox" id="show-task-detail" class="modal-toggle" />
-            <div class="modal modal-middle sm:modal-middle">
-                <div class="modal-box">
-                    <h3 class="font-bold text-lg">{name}</h3>
+            <input type="checkbox" id="show-task-detail" className="modal-toggle" />
+            <div className="modal modal-middle sm:modal-middle">
+                <div className="modal-box">
+                    <h3 className="font-bold text-lg">{name}</h3>
                     <p>{description}</p>
-                    <div class="modal-action flex justify-center">
-                        <label for="show-task-detail" class="btn">Close</label>
+                    <div className="modal-action flex justify-center">
+                        <label htmlFor="show-task-detail" className="btn">Close</label>
                     </div>
                 </div>
             </div>
