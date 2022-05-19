@@ -9,7 +9,7 @@ const TaskDetailModal = ({ task }) => {
                     <h3 className="font-bold text-lg">{name}</h3>
                     <p>{description}</p>
                     <div className="modal-action flex justify-center">
-                        <label htmlFor="show-task-detail" className="btn">Close</label>
+                        <label htmlFor="show-task-detail" className="btn btn-primary">Close</label>
                     </div>
                 </div>
             </div>
